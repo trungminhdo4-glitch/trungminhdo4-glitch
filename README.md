@@ -1,126 +1,114 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:38bdf8&height=220&section=header&text=rufus%20—%20Trung%20Minh%20Do&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=Builder%20of%20local-first%20tools%20•%20Security%20•%20Automation%20•%20Berlin&descAlignY=75&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:38bdf8&height=220&section=header&text=rufus%20%E2%80%94%20Trung%20Minh%20Do&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=local-first%20tools%20•%20real%20bug%20fixes%20•%20proof%20over%20promises%20•%20Berlin&descAlignY=75&descAlign=50" />
 
 <p align="center">
-  <a href="https://github.com/trungminhdo4-glitch"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=38BDF8&center=true&vCenter=true&width=950&lines=Building+offline-first+tools+that+actually+ship;Deterministic+%2B+audit-trailed+%2B+privacy-safe+by+default;Python+%7C+Rust+%7C+TypeScript+%7C+FastAPI+%7C+Playwright;No+contribution+farming+%E2%80%94+only+real+fixes+with+proof" alt="typing" /></a>
+  <a href="https://github.com/trungminhdo4-glitch"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=38BDF8&center=true&vCenter=true&width=950&lines=Understand+broadly%2C+change+narrowly.;Every+PR+starts+with+a+repro+%E2%80%94+not+a+vibe;Rust+%7C+Python+%7C+C+ABI+%7C+TypeScript;AI-assisted%2C+human-verified%2C+fully+explainable" alt="typing" /></a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=trungminhdo4-glitch&label=PROFILE+VIEWS&color=0ea5e9&style=for-the-badge" />
-  <a href="https://github.com/trungminhdo4-glitch?tab=repositories"><img src="https://img.shields.io/badge/59_FOLLOWERS-38bdf8?style=for-the-badge&logo=github" /></a>
-  <img src="https://img.shields.io/badge/19_PUBLIC_REPOS-0f172a?style=for-the-badge" />
+  <a href="https://github.com/trungminhdo4-glitch?tab=followers"><img src="https://img.shields.io/github/followers/trungminhdo4-glitch?label=FOLLOWERS&style=for-the-badge&color=38bdf8" /></a>
+  <a href="https://github.com/trungminhdo4-glitch?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftrungminhdo4-glitch&query=%24.public_repos&label=PUBLIC%20REPOS&style=for-the-badge&color=0f172a" /></a>
   <img src="https://img.shields.io/badge/BERLIN-CET-1f2937?style=for-the-badge" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI--ASSISTED-TRANSPARENT-38bdf8?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/HUMAN--REVIEWED-EVERY_DIFF-0ea5e9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NO_FAKE_ISSUES-REAL_BUGS_ONLY-22c55e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NO_FARMING-REAL_BUGS_ONLY-22c55e?style=for-the-badge" />
 </p>
 
 ---
 
 ### 👋 Hey, I'm rufus
 
-> **I build local-first, auditable systems.** Not SaaS hype — software that runs offline, keeps data local, and works without the cloud. From NIS-2 evidence triage to Berlin real-estate pipelines and PDF shootouts.
+> **I fix real bugs in codebases bigger than mine.** Local-first tools by day,
+> upstream bug hunting by night — every change backed by a reproduction,
+> a regression test and a benchmark or an honest "no performance claim".
 
-- 🔒 **Active now:** `aethelgard`, `Home-owner-scrapper`, `Expose-Generator`, `pentest-orchestrator`, `agent-platform`, `coreguard`, `mmap-chunker-core`
-- 🧭 **Principles:** local-first · deterministic · privacy-safe · review-first · offline verifiable
-- 🛠️ **Favorite stack:** Python · Rust · TypeScript · FastAPI · SQLAlchemy · Playwright · Vite · TanStack
+- 🧭 **How I contribute:** repro first → smallest correct patch → adversarial self-review → maintainer-friendly PR
+- 🔨 **Building:** [mmap-chunker-core](https://github.com/trungminhdo4-glitch/mmap-chunker-core) (Rust · zero-dep · stable C ABI · on [PyPI](https://pypi.org/project/mmap-chunker-core/) & [crates.io](https://crates.io/crates/mmap-chunker-core)), [coreguard](https://github.com/trungminhdo4-glitch/coreguard), [aethelgard](https://github.com/trungminhdo4-glitch/aethelgard)
+- 🛠️ **Stack:** Rust · Python · C ABI · TypeScript · FastAPI · Playwright
 - 📍 **Berlin** — building for the German market with global engineering standards
-- 🤖 **How I work:** I use AI actively to explore, scaffold and review — **every diff is human-reviewed, tested and explainable** before it ships
+- 🤖 **AI disclosure:** I use AI to explore, scaffold and review — **every diff is read, understood, tested and explainable by me** before it ships
+
+---
+
+### 🌍 Open Source Track Record — live status, no stale claims
+
+**Merged upstream** 🎉
+
+| Repo | PR | Fix |
+|---|---|---|
+| `scrapy/w3lib` | [#291](https://github.com/scrapy/w3lib/pull/291) | Support quoted charset values in Content-Type headers ![status](https://img.shields.io/github/issues/detail/state/scrapy/w3lib/291?style=flat-square&label=%20) |
+
+**Open & under review** *(badges update themselves)*
+
+| Repo | PR | What it fixes |
+|---|---|---|
+| `odoo/odoo` | [#283999](https://github.com/odoo/odoo/pull/283999) | isolate defaults when creating relational values via import ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/283999?style=flat-square&label=%20) |
+| `odoo/odoo` | [#283316](https://github.com/odoo/odoo/pull/283316) | preserve error cause + transaction semantics in QWeb `t-nocache` ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/283316?style=flat-square&label=%20) |
+| `odoo/odoo` | [#281986](https://github.com/odoo/odoo/pull/281986) | normalize overtime day start in hr_attendance ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/281986?style=flat-square&label=%20) |
+| `pydantic/monty` | [#768](https://github.com/pydantic/monty/pull/768) | clean up object keys when value parsing fails ![st](https://img.shields.io/github/issues/detail/state/pydantic/monty/768?style=flat-square&label=%20) |
+| `scrapy/w3lib` | [#306](https://github.com/scrapy/w3lib/pull/306) | keep percent-encoded `%` in `canonicalize_url` ![st](https://img.shields.io/github/issues/detail/state/scrapy/w3lib/306?style=flat-square&label=%20) |
+| `langfuse/langfuse-python` | [#1826](https://github.com/langfuse/langfuse-python/pull/1826) | prevent stale clients queueing after shutdown ![st](https://img.shields.io/github/issues/detail/state/langfuse/langfuse-python/1826?style=flat-square&label=%20) |
+| `pretzelai/pretzelai` | [#171](https://github.com/pretzelai/pretzelai/pull/171) | keep `allow_hidden` when extensions wrap the contents manager ![st](https://img.shields.io/github/issues/detail/state/pretzelai/pretzelai/171?style=flat-square&label=%20) |
+| `OpenHands/automation` | [#283](https://github.com/OpenHands/automation/pull/283) | skip cron runs while an automation is active ![st](https://img.shields.io/github/issues/detail/state/OpenHands/automation/283?style=flat-square&label=%20) |
+| `OpenHands/automation` | [#277](https://github.com/OpenHands/automation/pull/277) | purge expired local-mode run workspaces ![st](https://img.shields.io/github/issues/detail/state/OpenHands/automation/277?style=flat-square&label=%20) |
+| `opensanctions/rigour` | [#261](https://github.com/opensanctions/rigour/pull/261) | LangStr hash/eq contract violation (closes #255) ![st](https://img.shields.io/github/issues/detail/state/opensanctions/rigour/261?style=flat-square&label=%20) |
+| `alunduil/zfs-replicate` | [#512](https://github.com/alunduil/zfs-replicate/pull/512) | Vale style rule for agent instruction files ![st](https://img.shields.io/github/issues/detail/state/alunduil/zfs-replicate/512?style=flat-square&label=%20) |
+| `kubernetes/kubernetes` | [#141338](https://github.com/kubernetes/kubernetes/pull/141338) | DRA: malformed per-device node selectors as node failures *(draft)* ![st](https://img.shields.io/github/issues/detail/state/kubernetes/kubernetes/141338?style=flat-square&label=%20) |
+
+**Also:** signed [Odoo Individual CLA](https://github.com/odoo/odoo/pull/282045) · reported [OpenHands/automation#278](https://github.com/OpenHands/automation/issues/278) (dispatcher-owned tasks not drained at shutdown)
+
+> Every PR above has a reproduction and a regression test. No drive-by cleanup,
+> no AI slop, no contribution farming — one solid fix beats ten speculative PRs.
+
+---
+
+### 🚀 Featured Projects — all public, all real
+
+| Project | What it does | Badges |
+|---|---|---|
+| **[mmap-chunker-core](https://github.com/trungminhdo4-glitch/mmap-chunker-core)** | Record-aligned byte-range planning, zero-copy mmap, stable C ABI — CLI + Python wheel + Rust crate | ![PyPI](https://img.shields.io/pypi/v/mmap-chunker-core?style=flat-square) ![crates.io](https://img.shields.io/crates/v/mmap-chunker-core?style=flat-square) ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/mmap-chunker-core?style=flat-square&label=%E2%98%85) |
+| **[coreguard](https://github.com/trungminhdo4-glitch/coreguard)** | Windows-native C execution layer — Job Object containment, resource limits, metrics | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/coreguard?style=flat-square&label=%E2%98%85) |
+| **[aethelgard](https://github.com/trungminhdo4-glitch/aethelgard)** | Local-first NIS-2 evidence triage — Article 21(2) matrix, SBOM, audit ledger | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/aethelgard?style=flat-square&label=%E2%98%85) |
+| **[algorithm-evolver](https://github.com/trungminhdo4-glitch/algorithm-evolver)** | Self-evolving algorithm experiments | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/algorithm-evolver?style=flat-square&label=%E2%98%85) |
+| **[atlas-mvp](https://github.com/trungminhdo4-glitch/atlas-mvp)** | Early-stage mapping / MVP experiments | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/atlas-mvp?style=flat-square&label=%E2%98%85) |
+| **[mev-sentinel](https://github.com/trungminhdo4-glitch/mev-sentinel)** | MEV / market microstructure sentinel | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/mev-sentinel?style=flat-square&label=%E2%98%85) |
 
 <details>
-<summary>⚡ Quick intro — click to expand</summary>
+<summary>🧪 More public repos</summary>
 
-- I don't build demo SaaS — I ship **reproducible local workflows** with audit trail, SBOM and deterministic reports
-- Prefer **one small, verifiable slice** that actually works over 10 features with question marks
-- Security != theater: scope gates, `shlex.quote`, Job Objects, Fernet-encrypted PII, offline validation
+- [rule_based_decision_system](https://github.com/trungminhdo4-glitch/rule_based_decision_system) — deterministic rule engine playground ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/rule_based_decision_system?style=flat-square&label=%E2%98%85)
+- Forks I contribute through: `odoo`, `kubernetes`, `pydantic/monty`, `scrapy/w3lib`, `langfuse-python`, `pretzelai`, `opensanctions/rigour`, `OpenHands/automation`
 
 </details>
 
 ---
 
-### 🤖 AI Disclosure & Contribution Ethos
-
-> **I work with AI — openly and responsibly.**
-
-- I use AI (Muse, Codex, etc.) to **accelerate exploration, code reading and test scaffolding**
-- Every change is **read, understood, tested and verified by me** — `py_compile` · `cargo check` · `pytest` · benchmarks before any PR
-- I can **explain any diff I submit** line-by-line — no blind copy-paste
-- **I don't create issues or PRs to farm contributions.** I only open an issue/PR when there is a **reproducible bug, measurable value, or explicit maintainer request** — not for stats or green squares
-- Quality > quantity — **one solid fix beats ten speculative PRs**
+### ⚡ Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI_helps_me_build-faster-8b5cf6?style=flat-square" />
-  <img src="https://img.shields.io/badge/Human_decides_what_ships-38bdf8?style=flat-square" />
-  <img src="https://img.shields.io/badge/No_contribution_farming-22c55e?style=flat-square" />
+  <img src="https://skillicons.dev/icons?i=rust,python,c,ts,js,fastapi,docker,postgres,sqlite,linux,git,vite&perline=8" />
 </p>
 
 ---
 
-### ⚡ Tech Stack — animated
+### 🧩 How I build
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,ts,js,go,react,nextjs,vite,tailwind,fastapi,docker,postgres,sqlite,linux,git&perline=8" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=py,rust,typescript,react,vite,fastapi,postgres,docker&theme=dark" />
-</p>
-
----
-
-### 🚀 Featured — only public repos (no private, no fake stats)
-
-| Project | What it does | Stack | Stars |
-|---|---|---|---|
-| **[aethelgard](https://github.com/trungminhdo4-glitch/aethelgard)** | Local-first NIS-2 evidence triage — Article 21(2) matrix, PDF parsing, BM25/SimHash, CycloneDX SBOM, trust-bundle, audit ledger | Python · pypdf · SQLite · Docker | ★3 |
-| **[coreguard](https://github.com/trungminhdo4-glitch/coreguard)** | Windows-native C execution layer — Job Objects, resource limits, metrics, static C API | Python · C | ★3 |
-| **[mmap-chunker-core](https://github.com/trungminhdo4-glitch/mmap-chunker-core)** | Record-aligned byte-range planning, zero-copy mmap, CLI + stable C ABI | Rust | ★3 |
-| **[algorithm-evolver](https://github.com/trungminhdo4-glitch/algorithm-evolver)** | Self-evolving algorithm experiments | Python | ★5 |
-| **[Home-owner-scrapper](https://github.com/trungminhdo4-glitch/Home-owner-scrapper)** | Berlin private-seller pipeline — scrape portals, private vs broker classifier, ZIP filter, Sheets export | Python · Playwright · curl_cffi · Fernet | ★0 |
-| **[Expose-Generator](https://github.com/trungminhdo4-glitch/Expose-Generator)** | Real-estate expose PDF from JSON+HTML — Playwright vs WeasyPrint shootout (WeasyPrint blocked on Win without GTK) + FastAPI prototype | Python · FastAPI · Vanilla-JS | ★0 |
-| **[agent-platform](https://github.com/trungminhdo4-glitch/agent-platform)** | Durable whole-task execution & model-capability routing | Python | ★0 |
-| **[atlas-mvp](https://github.com/trungminhdo4-glitch/atlas-mvp)** | Early-stage mapping / MVP experiments | Python | ★3 |
-| **[mev-sentinel](https://github.com/trungminhdo4-glitch/mev-sentinel)** | MEV / market microstructure sentinel | Rust | ★1 |
-
-<details>
-<summary>📦 More public repos</summary>
-
-- `shared-contracts` (Pydantic contracts for HNI pipeline) · `asia-choice-website` · `spaeti-deines-vertrauens` · `data_cleaner` · `HNI-Leads` · `market_regime_discovery` · `runtime` · `moon-resturants` — all at [@trungminhdo4-glitch](https://github.com/trungminhdo4-glitch?tab=repositories)
-- Forks I contribute to (not counted as mine): `odoo`, `pydantic/monty`, `OpenHands/automation`, `scrapy/w3lib`, `langfuse-python`, `pretzelai`, `kubernetes`, `opensanctions/rigour`, `alunduil/zfs-replicate`
-
-</details>
-
----
-
-### 🌐 Open Source — recent contributions (forks, real fixes)
-
-```text
-pydantic/monty   #768  fix(json): drop object-key leak via DropGuard (memory-model-check)  → Ready
-pretzelai        #171  keep allow_hidden across Jupytext CM replacement                   → Ready
-langfuse-python  #1826 fix(resource-manager): shutdown vs admission race                  → Ready
-odoo             #283999 [FIX] base_import: isolate default_* context on name_create      → Ready
-OpenHands/autos  #283  fix(scheduler): skip cron when PENDING/RUNNING in-flight           → Ready
-scrapy/w3lib     #306  fix(url): keep %25 encoded in canonicalize_url                     → Open
-rigour           #261  fix: LangStr hash/eq contract (a==b ⇒ hash(a)==hash(b))            → Open
-zfs-replicate    #512  chore(vale): Custom-Agent sentence-length for agent docs            → Open
+```python
+def ship(change) -> str:
+    assert reproduces_real_bug(change)      # repro before fix
+    assert minimal_diff(change)             # understand broadly, change narrowly
+    assert tests_prove_it(change)           # failing test first, green after
+    assert i_can_explain_every_line(change) # AI-assisted ≠ AI-authored
+    return "merged or honestly closed — never farmed"
 ```
 
-> Every PR has a repro, regression test and `py_compile`/`cargo check` — **no drive-by cleanup**.
+- **Proof before claim:** `pytest -q` · `cargo check` · benchmarks — no perf claim without a measurement
+- **One issue = one worktree:** focus over context hopping
+- **Maintainer time is expensive:** small diffs, clear repros, zero hand-holding required
+- **AI is a tool, not an author:** I prompt, read, verify and take responsibility
 
 ---
 
@@ -140,37 +128,10 @@ zfs-replicate    #512  chore(vale): Custom-Agent sentence-length for agent docs 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=trungminhdo4-glitch&theme=tokyo-night&hide_border=true&bg_color=0f172a&color=38bdf8&line=38bdf8&point=cbd5e1" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=trungminhdo4-glitch&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
-</p>
-
 <!-- Snake — generated daily via GitHub Action -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/trungminhdo4-glitch/trungminhdo4-glitch/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/trungminhdo4-glitch/trungminhdo4-glitch/output/github-contribution-grid-snake-dark.svg" alt="snake dark" onerror="this.style.display='none'" />
-</p>
-
----
-
-### 🧩 How I build
-
-```python
-# philosophy.py — runs locally, not in the cloud
-def ship(feature: str) -> str:
-    assert deterministic(feature)
-    assert offline_verifiable(feature)
-    assert privacy_safe(feature)
-    assert human_review_required(feature)
-    return "artifact under ./reports — not a SaaS promise"
-```
-
-- **Proof before claim:** `pytest -q` · `py_compile` · `cargo check` · benchmarks before merge
-- **No secrets in repo:** `.env` is forbidden — PII Fernet-encrypted, reports redacted
-- **One issue = one worktree:** focus over context hopping
-- **AI is a tool, not an author:** I prompt, read, verify and take responsibility
 
 ---
 
@@ -178,14 +139,13 @@ def ship(feature: str) -> str:
 
 <p align="center">
   <a href="https://github.com/trungminhdo4-glitch"><img src="https://img.shields.io/badge/GitHub-trungminhdo4--glitch-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/trungminhdo4-glitch?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-19_Repos-0ea5e9?style=for-the-badge" /></a>
-  <img src="https://img.shields.io/badge/Followers-59-38bdf8?style=for-the-badge" />
+  <a href="https://github.com/trungminhdo4-glitch?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-repositories-0ea5e9?style=for-the-badge" /></a>
   <img src="https://img.shields.io/badge/Timezone-Europe/Berlin-1f2937?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <i>“Rather an offline-verifiable slice than a cloud promise.” — rufus</i><br/>
-  <sub>Animated with capsule-render • typing-svg • skillicons • stats cards • activity-graph • trophy • snake</sub>
+  <i>“Repro first. Smallest correct patch. Proof over promises.” — rufus</i><br/>
+  <sub>Animated with capsule-render • typing-svg • skillicons • stats cards • activity-graph • snake • live shields.io badges</sub>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,100:0f172a&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&animation=fadeIn" />
