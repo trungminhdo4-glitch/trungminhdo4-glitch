@@ -21,7 +21,7 @@
 
 ### 👋 Hey, I'm rufus
 
-> **I fix real bugs in codebases bigger than mine.** Local-first tools by day,
+> **I fix bugs in codebases.** Local-first tools by day,
 > upstream bug hunting by night — every change backed by a reproduction,
 > a regression test and a benchmark or an honest "no performance claim".
 
@@ -33,7 +33,7 @@
 
 ---
 
-### 🌍 Open Source Track Record — live status, no stale claims
+### 🌍 Open Source Track Record 
 
 **Merged upstream** 🎉
 
@@ -65,24 +65,7 @@
 
 ---
 
-### 🚀 Featured Projects — all public, all real
 
-| Project | What it does | Badges |
-|---|---|---|
-| **[mmap-chunker-core](https://github.com/trungminhdo4-glitch/mmap-chunker-core)** | Record-aligned byte-range planning, zero-copy mmap, stable C ABI — CLI + Python wheel + Rust crate | ![PyPI](https://img.shields.io/pypi/v/mmap-chunker-core?style=flat-square) ![crates.io](https://img.shields.io/crates/v/mmap-chunker-core?style=flat-square) ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/mmap-chunker-core?style=flat-square&label=%E2%98%85) |
-| **[coreguard](https://github.com/trungminhdo4-glitch/coreguard)** | Windows-native C execution layer — Job Object containment, resource limits, metrics | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/coreguard?style=flat-square&label=%E2%98%85) |
-| **[aethelgard](https://github.com/trungminhdo4-glitch/aethelgard)** | Local-first NIS-2 evidence triage — Article 21(2) matrix, SBOM, audit ledger | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/aethelgard?style=flat-square&label=%E2%98%85) |
-| **[algorithm-evolver](https://github.com/trungminhdo4-glitch/algorithm-evolver)** | Self-evolving algorithm experiments | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/algorithm-evolver?style=flat-square&label=%E2%98%85) |
-| **[atlas-mvp](https://github.com/trungminhdo4-glitch/atlas-mvp)** | Early-stage mapping / MVP experiments | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/atlas-mvp?style=flat-square&label=%E2%98%85) |
-| **[mev-sentinel](https://github.com/trungminhdo4-glitch/mev-sentinel)** | MEV / market microstructure sentinel | ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/mev-sentinel?style=flat-square&label=%E2%98%85) |
-
-<details>
-<summary>🧪 More public repos</summary>
-
-- [rule_based_decision_system](https://github.com/trungminhdo4-glitch/rule_based_decision_system) — deterministic rule engine playground ![stars](https://img.shields.io/github/stars/trungminhdo4-glitch/rule_based_decision_system?style=flat-square&label=%E2%98%85)
-- Forks I contribute through: `odoo`, `kubernetes`, `pydantic/monty`, `scrapy/w3lib`, `langfuse-python`, `pretzelai`, `opensanctions/rigour`, `OpenHands/automation`
-
-</details>
 
 ---
 
