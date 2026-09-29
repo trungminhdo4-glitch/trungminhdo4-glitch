@@ -40,6 +40,9 @@
 | Repo | PR | Fix |
 |---|---|---|
 | `scrapy/w3lib` | [#291](https://github.com/scrapy/w3lib/pull/291) | Support quoted charset values in Content-Type headers ![status](https://img.shields.io/github/issues/detail/state/scrapy/w3lib/291?style=flat-square&label=%20) |
+| `scrapy/w3lib` | [#306](https://github.com/scrapy/w3lib/pull/306) | keep percent-encoded `%` in `canonicalize_url` ![st](https://img.shields.io/github/issues/detail/state/scrapy/w3lib/306?style=flat-square&label=%20) |
+| `pydantic/monty` | [#768](https://github.com/pydantic/monty/pull/768) | clean up object keys when value parsing fails ![st](https://img.shields.io/github/issues/detail/state/pydantic/monty/768?style=flat-square&label=%20) |
+| `OpenHands/automation` | [#277](https://github.com/OpenHands/automation/pull/277) | purge expired local-mode run workspaces ![st](https://img.shields.io/github/issues/detail/state/OpenHands/automation/277?style=flat-square&label=%20) |
 
 **Open & under review** *(badges update themselves)*
 
@@ -47,14 +50,9 @@
 |---|---|---|
 | `odoo/odoo` | [#283999](https://github.com/odoo/odoo/pull/283999) | isolate defaults when creating relational values via import ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/283999?style=flat-square&label=%20) |
 | `odoo/odoo` | [#283316](https://github.com/odoo/odoo/pull/283316) | preserve error cause + transaction semantics in QWeb `t-nocache` ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/283316?style=flat-square&label=%20) |
-| `odoo/odoo` | [#281986](https://github.com/odoo/odoo/pull/281986) | normalize overtime day start in hr_attendance ![st](https://img.shields.io/github/issues/detail/state/odoo/odoo/281986?style=flat-square&label=%20) |
-| `pydantic/monty` | [#768](https://github.com/pydantic/monty/pull/768) | clean up object keys when value parsing fails ![st](https://img.shields.io/github/issues/detail/state/pydantic/monty/768?style=flat-square&label=%20) |
-| `scrapy/w3lib` | [#306](https://github.com/scrapy/w3lib/pull/306) | keep percent-encoded `%` in `canonicalize_url` ![st](https://img.shields.io/github/issues/detail/state/scrapy/w3lib/306?style=flat-square&label=%20) |
 | `langfuse/langfuse-python` | [#1826](https://github.com/langfuse/langfuse-python/pull/1826) | prevent stale clients queueing after shutdown ![st](https://img.shields.io/github/issues/detail/state/langfuse/langfuse-python/1826?style=flat-square&label=%20) |
 | `pretzelai/pretzelai` | [#171](https://github.com/pretzelai/pretzelai/pull/171) | keep `allow_hidden` when extensions wrap the contents manager ![st](https://img.shields.io/github/issues/detail/state/pretzelai/pretzelai/171?style=flat-square&label=%20) |
 | `OpenHands/automation` | [#283](https://github.com/OpenHands/automation/pull/283) | skip cron runs while an automation is active ![st](https://img.shields.io/github/issues/detail/state/OpenHands/automation/283?style=flat-square&label=%20) |
-| `OpenHands/automation` | [#277](https://github.com/OpenHands/automation/pull/277) | purge expired local-mode run workspaces ![st](https://img.shields.io/github/issues/detail/state/OpenHands/automation/277?style=flat-square&label=%20) |
-| `opensanctions/rigour` | [#261](https://github.com/opensanctions/rigour/pull/261) | LangStr hash/eq contract violation (closes #255) ![st](https://img.shields.io/github/issues/detail/state/opensanctions/rigour/261?style=flat-square&label=%20) |
 | `alunduil/zfs-replicate` | [#512](https://github.com/alunduil/zfs-replicate/pull/512) | Vale style rule for agent instruction files ![st](https://img.shields.io/github/issues/detail/state/alunduil/zfs-replicate/512?style=flat-square&label=%20) |
 | `kubernetes/kubernetes` | [#141338](https://github.com/kubernetes/kubernetes/pull/141338) | DRA: malformed per-device node selectors as node failures *(draft)* ![st](https://img.shields.io/github/issues/detail/state/kubernetes/kubernetes/141338?style=flat-square&label=%20) |
 
@@ -62,10 +60,6 @@
 
 > Every PR above has a reproduction and a regression test. No drive-by cleanup,
 > no AI slop, no contribution farming — one solid fix beats ten speculative PRs.
-
----
-
-
 
 ---
 
