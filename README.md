@@ -1,6 +1,16 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:38bdf8&height=220&section=header&text=rufus%20%E2%80%94%20Trung%20Minh%20Do&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=local-first%20tools%20•%20real%20bug%20fixes%20•%20proof%20over%20promises%20•%20Berlin&descAlignY=75&descAlign=50" />
 
 <p align="center">
+  <img width="100%" src="./assets/code-geass-banner.svg" alt="Code Geass inspired animated banner — Zero Rebellion Protocol" />
+</p>
+
+<!-- Optional: eigenes Code-Geass-GIF (nur selbst erstellte / lizenzierte Datei nach assets/code-geass.gif legen, dann Block entkommentieren — keine fremden GIFs/Screenshots ohne Lizenz hotlinken).
+<p align="center">
+  <img src="./assets/code-geass.gif" width="600" alt="Code Geass animation" />
+</p>
+-->
+
+<p align="center">
   <a href="https://github.com/trungminhdo4-glitch"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=38BDF8&center=true&vCenter=true&width=950&lines=Understand+broadly%2C+change+narrowly.;Every+PR+starts+with+a+repro+%E2%80%94+not+a+vibe;Rust+%7C+Python+%7C+C+ABI+%7C+TypeScript;AI-assisted%2C+human-verified%2C+fully+explainable" alt="typing" /></a>
 </p>
 

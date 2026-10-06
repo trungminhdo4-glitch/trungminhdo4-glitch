@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Code Geass inspired rebellion banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#0a0a12"/>
+      <stop offset="1" stop-color="#1a0505"/>
+    </linearGradient>
+    <radialGradient id="glowRed" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff3b3b" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#ff2a2a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="softSmall" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- chessboard strip (Code Geass tactic motif, generic squares) -->
+  <g opacity="0.5">
+    <g fill="#e2e8f0" fill-opacity="0.07">
+      <rect x="40" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0s" repeatCount="indefinite"/></rect>
+      <rect x="108" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.2s" repeatCount="indefinite"/></rect>
+      <rect x="176" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.4s" repeatCount="indefinite"/></rect>
+      <rect x="244" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.6s" repeatCount="indefinite"/></rect>
+      <rect x="312" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.8s" repeatCount="indefinite"/></rect>
+      <rect x="380" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect x="448" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="516" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="584" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect>
+      <rect x="652" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.8s" repeatCount="indefinite"/></rect>
+      <rect x="720" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2s" repeatCount="indefinite"/></rect>
+      <rect x="788" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.2s" repeatCount="indefinite"/></rect>
+      <rect x="856" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="924" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="992" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="1060" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="3s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- floating chess knights (generic unicode, slow drift) -->
+  <g font-family="serif" font-size="120" fill="#e2e8f0" fill-opacity="0.08">
+    <text x="90" y="220">♞<animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="6s" repeatCount="indefinite"/></text>
+    <text x="990" y="230">♞<animateTransform attributeName="transform" type="translate" values="0 0; 0 12; 0 0" dur="7s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- rising embers -->
+  <g fill="#ff6b6b">
+    <circle cx="380" cy="290" r="3" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0; 24 -130" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="460" cy="300" r="2.2" opacity="0.7"><animateTransform attributeName="transform" type="translate" values="0 0; -20 -150" dur="5s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="5s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="295" r="2.6" opacity="0.7"><animateTransform attributeName="transform" type="translate" values="0 0; 18 -140" dur="4.5s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="4.5s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="290" r="3.2" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0; -26 -160" dur="5.5s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="5.5s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="300" r="2" opacity="0.6"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -170" dur="6s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- headline -->
+  <g text-anchor="middle" font-family="Consolas, Menlo, monospace">
+    <text x="600" y="62" font-size="26" letter-spacing="8" fill="#e2e8f0">ZERO // REBELLION PROTOCOL
+      <animate attributeName="opacity" values="1;0.75;1" dur="3.2s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="92" font-size="15" letter-spacing="4" fill="#38bdf8">CODE GEASS INSPIRED • ORIGINAL SVG ANIMATION</text>
+  </g>
+
+  <!-- central sigil: original abstractGeass-like eye (not traced from the show) -->
+  <g transform="translate(600,195)">
+    <circle r="95" fill="url(#glowRed)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- expanding command rings -->
+    <circle r="34" fill="none" stroke="#ff2a2a" stroke-width="2.5" opacity="0.8">
+      <animate attributeName="r" values="34;92" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="34" fill="none" stroke="#ff2a2a" stroke-width="2.5" opacity="0.8">
+      <animate attributeName="r" values="34;92" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- outer dial -->
+    <circle r="72" fill="none" stroke="#ff2a2a" stroke-width="2" stroke-opacity="0.7"/>
+    <circle r="72" fill="none" stroke="#ffb3b3" stroke-width="5" stroke-opacity="0.9" stroke-dasharray="10 26" filter="url(#softSmall)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="52" fill="#0a0a12" stroke="#ff2a2a" stroke-width="3"/>
+    <!-- abstract wings: three original curved blades -->
+    <g fill="none" stroke="#ff2a2a" stroke-width="5" stroke-linecap="round" filter="url(#softSmall)">
+      <path d="M 0 -38 C 18 -22, 26 -8, 30 12">
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M -33 19 C -12 12, 2 12, 20 22">
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 33 19 C 12 12, -2 12, -20 22">
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <!-- core -->
+    <circle r="13" fill="#ff2a2a" filter="url(#softSmall)">
+      <animate attributeName="r" values="11;15;11" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.7;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" fill="#fff"/>
+  </g>
+
+  <!-- subline: profile ethos in rebellion wording (original text) -->
+  <g text-anchor="middle" font-family="Consolas, Menlo, monospace">
+    <text x="600" y="292" font-size="17" letter-spacing="2" fill="#f1f5f9">repro first • smallest correct patch • proof over promises</text>
+    <text x="600" y="318" font-size="13" letter-spacing="3" fill="#94a3b8">反逆のデバッグ — THE BLACK KNIGHTS OF BUGFIXES</text>
+  </g>
+</svg>
