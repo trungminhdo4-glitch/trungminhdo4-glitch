@@ -1,115 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Code Geass inspired rebellion banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Code Geass inspired tactical chess banner">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.55" stop-color="#0a0a12"/>
-      <stop offset="1" stop-color="#1a0505"/>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.6" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0d0608"/>
     </linearGradient>
-    <radialGradient id="glowRed" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ff3b3b" stop-opacity="0.9"/>
-      <stop offset="0.45" stop-color="#ff2a2a" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="6"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <filter id="soft2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
     </filter>
-    <filter id="softSmall" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2.5"/>
+    <filter id="softS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2"/>
     </filter>
   </defs>
 
-  <!-- background -->
-  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#bg2)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
   <rect width="1200" height="360" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="2"/>
 
-  <!-- chessboard strip (Code Geass tactic motif, generic squares) -->
-  <g opacity="0.5">
-    <g fill="#e2e8f0" fill-opacity="0.07">
-      <rect x="40" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0s" repeatCount="indefinite"/></rect>
-      <rect x="108" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.2s" repeatCount="indefinite"/></rect>
-      <rect x="176" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.4s" repeatCount="indefinite"/></rect>
-      <rect x="244" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.6s" repeatCount="indefinite"/></rect>
-      <rect x="312" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="0.8s" repeatCount="indefinite"/></rect>
-      <rect x="380" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
-      <rect x="448" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>
-      <rect x="516" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.4s" repeatCount="indefinite"/></rect>
-      <rect x="584" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect>
-      <rect x="652" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="1.8s" repeatCount="indefinite"/></rect>
-      <rect x="720" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2s" repeatCount="indefinite"/></rect>
-      <rect x="788" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.2s" repeatCount="indefinite"/></rect>
-      <rect x="856" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.4s" repeatCount="indefinite"/></rect>
-      <rect x="924" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.6s" repeatCount="indefinite"/></rect>
-      <rect x="992" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="2.8s" repeatCount="indefinite"/></rect>
-      <rect x="1060" y="300" width="34" height="34"><animate attributeName="fill-opacity" values="0.07;0.22;0.07" dur="3s" begin="3s" repeatCount="indefinite"/></rect>
-    </g>
+  <!-- sweeping scan bar -->
+  <rect x="0" y="48" width="90" height="264" fill="#ff2a2a" opacity="0.07">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 1110 0; 0 0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="48" width="2" height="264" fill="#ff2a2a" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 1110 0; 0 0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- top bar -->
+  <g font-family="Consolas, Menlo, monospace">
+    <circle cx="40" cy="26" r="6" fill="#ff2a2a">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="58" y="32" font-size="17" letter-spacing="4" fill="#e2e8f0">BLACK KNIGHTS // TACTICAL COMMAND</text>
+    <text x="1160" y="32" font-size="15" letter-spacing="3" fill="#38bdf8" text-anchor="end">TURN 07 — YOUR MOVE</text>
+    <line x1="24" y1="48" x2="1176" y2="48" stroke="#38bdf8" stroke-opacity="0.3"/>
   </g>
 
-  <!-- floating chess knights (generic unicode, slow drift) -->
-  <g font-family="serif" font-size="120" fill="#e2e8f0" fill-opacity="0.08">
-    <text x="90" y="220">♞<animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="6s" repeatCount="indefinite"/></text>
-    <text x="990" y="230">♞<animateTransform attributeName="transform" type="translate" values="0 0; 0 12; 0 0" dur="7s" repeatCount="indefinite"/></text>
+  <!-- mid line -->
+  <line x1="600" y1="60" x2="600" y2="300" stroke="#e2e8f0" stroke-opacity="0.18" stroke-dasharray="6 8"/>
+
+  <!-- left army (red, dim back rank) -->
+  <g font-family="serif" font-size="54" text-anchor="middle" fill="#ff2a2a" fill-opacity="0.35">
+    <text x="200" y="200">♜</text>
+    <text x="290" y="200">♝</text>
+    <text x="380" y="200">♛</text>
+    <text x="200" y="262" font-size="34" fill-opacity="0.3">♟ ♟ ♟</text>
   </g>
 
-  <!-- rising embers -->
-  <g fill="#ff6b6b">
-    <circle cx="380" cy="290" r="3" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0; 24 -130" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="460" cy="300" r="2.2" opacity="0.7"><animateTransform attributeName="transform" type="translate" values="0 0; -20 -150" dur="5s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="5s" begin="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="740" cy="295" r="2.6" opacity="0.7"><animateTransform attributeName="transform" type="translate" values="0 0; 18 -140" dur="4.5s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="4.5s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="290" r="3.2" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0; -26 -160" dur="5.5s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="5.5s" begin="0.4s" repeatCount="indefinite"/></circle>
-    <circle cx="600" cy="300" r="2" opacity="0.6"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -170" dur="6s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+  <!-- right army (blue-white, dim back rank) -->
+  <g font-family="serif" font-size="54" text-anchor="middle" fill="#93c5fd" fill-opacity="0.35">
+    <text x="820" y="200">♚</text>
+    <text x="910" y="200">♝</text>
+    <text x="1000" y="200">♜</text>
+    <text x="1000" y="262" font-size="34" fill-opacity="0.3">♟ ♟ ♟</text>
   </g>
 
-  <!-- headline -->
-  <g text-anchor="middle" font-family="Consolas, Menlo, monospace">
-    <text x="600" y="62" font-size="26" letter-spacing="8" fill="#e2e8f0">ZERO // REBELLION PROTOCOL
-      <animate attributeName="opacity" values="1;0.75;1" dur="3.2s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="92" font-size="15" letter-spacing="4" fill="#38bdf8">CODE GEASS INSPIRED • ORIGINAL SVG ANIMATION</text>
+  <!-- target pawn (gets taken at the strike moment, respawns each loop) -->
+  <g font-family="serif" font-size="64" text-anchor="middle">
+    <text x="700" y="215" fill="#e2e8f0" opacity="0.9">♟<animate attributeName="opacity" values="0.9;0.9;0;0;0.9" keyTimes="0;0.32;0.38;0.92;1" dur="9s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- central sigil: original abstractGeass-like eye (not traced from the show) -->
-  <g transform="translate(600,195)">
-    <circle r="95" fill="url(#glowRed)">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <!-- expanding command rings -->
-    <circle r="34" fill="none" stroke="#ff2a2a" stroke-width="2.5" opacity="0.8">
-      <animate attributeName="r" values="34;92" dur="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="34" fill="none" stroke="#ff2a2a" stroke-width="2.5" opacity="0.8">
-      <animate attributeName="r" values="34;92" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
-    </circle>
-    <!-- outer dial -->
-    <circle r="72" fill="none" stroke="#ff2a2a" stroke-width="2" stroke-opacity="0.7"/>
-    <circle r="72" fill="none" stroke="#ffb3b3" stroke-width="5" stroke-opacity="0.9" stroke-dasharray="10 26" filter="url(#softSmall)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="52" fill="#0a0a12" stroke="#ff2a2a" stroke-width="3"/>
-    <!-- abstract wings: three original curved blades -->
-    <g fill="none" stroke="#ff2a2a" stroke-width="5" stroke-linecap="round" filter="url(#softSmall)">
-      <path d="M 0 -38 C 18 -22, 26 -8, 30 12">
-        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/>
-      </path>
-      <path d="M -33 19 C -12 12, 2 12, 20 22">
-        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
-      </path>
-      <path d="M 33 19 C 12 12, -2 12, -20 22">
-        <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
-      </path>
-    </g>
-    <!-- core -->
-    <circle r="13" fill="#ff2a2a" filter="url(#softSmall)">
-      <animate attributeName="r" values="11;15;11" dur="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.7;1" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="5" fill="#fff"/>
+  <!-- attacking knight: lunges from the left, strikes, retreats (9s loop) -->
+  <g font-family="serif" font-size="110" text-anchor="middle">
+    <text x="600" y="235" fill="#ff2a2a" filter="url(#softS)">♞<animateTransform attributeName="transform" type="translate" values="-260 0; 40 0; 40 0; -260 0" keyTimes="0;0.32;0.7;1" dur="9s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- subline: profile ethos in rebellion wording (original text) -->
-  <g text-anchor="middle" font-family="Consolas, Menlo, monospace">
-    <text x="600" y="292" font-size="17" letter-spacing="2" fill="#f1f5f9">repro first • smallest correct patch • proof over promises</text>
-    <text x="600" y="318" font-size="13" letter-spacing="3" fill="#94a3b8">反逆のデバッグ — THE BLACK KNIGHTS OF BUGFIXES</text>
+  <!-- impact flash + CHECK callout at strike moment -->
+  <circle cx="700" cy="190" r="46" fill="#ff2a2a" opacity="0" filter="url(#soft2)">
+    <animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.31;0.37;0.46;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <g font-family="Consolas, Menlo, monospace" text-anchor="middle">
+    <text x="700" y="130" font-size="34" letter-spacing="10" fill="#ff2a2a" opacity="0">CHECK<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.31;0.37;0.62;0.7" dur="9s" repeatCount="indefinite"/></text>
+    <text x="600" y="292" font-size="17" letter-spacing="3" fill="#f1f5f9">STRATEGY BEATS POWER — repro first. smallest correct patch.</text>
+  </g>
+
+  <!-- command log (cycles 3 lines) -->
+  <g font-family="Consolas, Menlo, monospace" font-size="14" fill="#7dd3fc">
+    <text x="40" y="90" opacity="1">&gt; analyzing formation… 4 hostile pieces, 1 weak pawn<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.3;0.36;0.94;1" dur="9s" repeatCount="indefinite"/></text>
+    <text x="40" y="90" opacity="0">&gt; sacrifice nothing. knight takes pawn on e5.<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.36;0.62;0.68" dur="9s" repeatCount="indefinite"/></text>
+    <text x="40" y="90" opacity="0">&gt; checkmate in 3 — proof over promises.<animate attributeName="opacity" values="0;0;0;1;1" keyTimes="0;0.62;0.68;0.94;1" dur="9s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- meters bottom-right -->
+  <g font-family="Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">
+    <text x="880" y="282">REPRO</text>
+    <rect x="950" y="270" width="180" height="10" fill="#1e293b"/>
+    <rect x="950" y="270" width="180" height="10" fill="#38bdf8">
+      <animate attributeName="width" values="40;180;180;40" keyTimes="0;0.35;0.7;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="880" y="302">PROOF</text>
+    <rect x="950" y="290" width="180" height="10" fill="#1e293b"/>
+    <rect x="950" y="290" width="180" height="10" fill="#ff2a2a">
+      <animate attributeName="width" values="180;60;180;180" keyTimes="0;0.35;0.7;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
